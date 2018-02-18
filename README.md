@@ -5,7 +5,7 @@ Linux version of JavaScriptCore written in Swift with closure support.
 ## Requirements
 
 ```bash
-apt install libwebkit-dev
+apt install libjavascriptcoregtk-1.0-dev
 ```
 
 ## Package.swift
