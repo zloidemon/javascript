@@ -21,10 +21,10 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/tris-foundation/platform.git",
-            .branch("master")),
+            url: "../platform",
+            .branch("local")),
         .package(
-            url: "https://github.com/tris-foundation/test.git",
+            url: "../test",
             .branch("master"))
     ],
     targets: [
